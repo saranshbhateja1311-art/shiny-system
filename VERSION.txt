@@ -1,0 +1,9 @@
+JEE OneShot OS v4.2.1
+
+Server launcher alignment release.
+- Matches the original JEE OS Windows launcher and server startup pattern.
+- Uses a separate port (4000) so both JEE OS apps can run simultaneously.
+- Uses the consistent loopback URL http://127.0.0.1:4000/.
+- Starts the server in a separate minimized CMD window titled "JEE OneShot OS Server".
+- Waits for /health before opening the browser.
+- Keeps the existing 116-chapter curriculum, calendar, embedded YouTube player, two-checkbox workflow, and local-first storage.
